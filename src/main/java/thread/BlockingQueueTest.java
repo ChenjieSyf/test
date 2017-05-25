@@ -10,7 +10,14 @@ public class BlockingQueueTest {
 
     BlockingQueue<String> bb = new ArrayBlockingQueue<String>(5);
 
+    public void test(Object o){
+
+    }
+
+
+
     public static void main(String[] args) throws Exception{
+
 
         BlockingQueueTest bt = new BlockingQueueTest();
         MyThread my =new MyThread();

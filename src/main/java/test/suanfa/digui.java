@@ -1,4 +1,4 @@
-package suanfa;
+package test.suanfa;
 
 import Factory.User;
 

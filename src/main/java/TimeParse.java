@@ -81,9 +81,9 @@ public class TimeParse {
         System.out.println(dateTime.getDayOfWeek());*/
 
        //  timeStampTaskUtil("2017-02-01", "2017-02-15", new int[]{6, 7});
-       // System.out.println(new TimeParse().longToDateFormatter(1491472800000L));
+        System.out.println(new TimeParse().longToDateFormatter(1492653600000L));
 
-        System.out.println(new TimeParse().getClass().getResource("/"));
+       // System.out.println(new TimeParse().getClass().getResource("/"));
 
 
     }

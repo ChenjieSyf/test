@@ -17,3 +17,13 @@ B：可以使用shell所使用的正则表达式来进行模式匹配
 C：匹配模式最后跟"/"说明要忽略的是目录
 D：使用！取反（例如目录中包含  test.a，并且gitignore文件中包含  *.[oa]，如果在文件中加入 ！test.a   表明忽略除test.a文件以外的后缀名为.a或者.o的文件）
 4、配置完.gitignore文件后，执行git status命令，会发现那些文件不再是Untracked files了，也就完成了忽略指定文件的功能。
+
+git初始化提交代码
+echo "# cjweb" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:ChenjieSyf/cjweb.git
+git push -u origin master
+git remote add origin git@github.com:ChenjieSyf/cjweb.git
+git push -u origin master
